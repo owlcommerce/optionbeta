@@ -39,3 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'stock_quote'
 gem "sprockets", "2.11.0"
+group :production do
+  gem 'rails_12factor'
+end
